@@ -1,0 +1,91 @@
+body{
+	background-image:url("C:\User\Mridul Kumar\Desktop\3.jpg");
+	background:linear-gradient(red, yellow);
+    margin: 0px;
+    font-size: 12px;
+
+}
+
+td{
+padding: 10px 30px 10px 30px;
+
+}
+
+
+.big-p{
+
+padding-top:70px; padding-left:50px; padding-right:50px;padding-bottom:50px;
+
+}
+
+
+table{
+
+padding-top:30px; padding-left:50px; padding-right:50px; padding-bottom:20px;
+
+}
+
+.mar-pad{
+
+margin: ;
+padding:;
+}
+.container{
+	padding-top: 10px;
+    	padding-bottom: 10px;
+    	margin-right: 400pxpx;
+    	margin-left: 400px;
+	max-width:600px;
+}
+
+h1{
+color: black;
+font-family: 'Tangerine', serif;
+  font-size: 60px;
+  text-shadow: 4px 4px 4px #aaa;
+  font-weight: bold;
+
+}
+#main
+{
+text-align: justify;
+padding-left:50px; padding-right:50px;
+
+}
+
+.italic
+{
+	
+font-size:15px;
+font-weight: bold;
+}
+.kailash
+{
+padding-right:100px;
+}
+
+.footer
+{
+
+height: 30px;
+padding-top:10px;
+font-size:12px;
+font-weight: bold; 
+background-color:yellow;
+}
+h3{
+	font-family: ' Droid Sans', serif;
+	font-size: 40px;
+	text-shadow: 4px 4px 4px #aaa;
+	
+}
+img {
+    float: right;
+    margin: 0 0 10px 10px;
+}
+
+.btn-theme  {
+  color: #fff;
+  background-color: #4F92AF;
+  border-color: #4F92AF;
+}

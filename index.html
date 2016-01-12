@@ -1,45 +1,84 @@
+<!DOC1TYPE html>
 <html>
 <head>
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">        <!--Botstrap.css link-->
+<link rel="stylesheet" href="my-style1.css" type="text/css"/>		   <!-- mycss link -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"> <!--Font Awesome Link-->
+<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Tangerine">	
+<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family= Droid Sans">
+
 <title>Coming Soon</title>
 
+<script type="text/javascript">
+function val()
+{
+if (frm.phone.value= =" ")
+{
+alert("Please enter the phone number");
+frm.phone.focus();
+return false;
+}
+if(isNaN(frm.phone.value))
+{
+alert("Invalid phone number");
+frm.phone.focus();
+return false;
+}
+if((frm.phone.value).length<10)
+{
+alert("Phone number should be minimum 10 digits");
+frm.phone.focus();
+return false;
+}
+return true;
+}
+
+
+</script>
 
 </head>
 <body>
 
-<div style="padding-top:140px; padding-left:50px; padding-right:50px;padding-bottom:60px;">
+<div class = "container-fluid ">
+<div class = "big-p">
 	<h1 align="center">Coming Soon</h1>
 	<!--style="padding-top:150px; padding-left:50px; padding-right:50px;"-->
-		<p align="center" > Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the </br>
+		<p  class="italic" align="center"> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the </br>
 			industry's standard dummy text ever since the 1500s, when an unknown printer took </br>
 			a galley of type and scrambled it to make a type specimen book.
 		</p>
 		<!--align="center" style = "padding-left:50px; padding-right:50px;"-->
 </div>
-<table border = 1 align = "center" width = 800px style="padding-top:30px; padding-left:50px; padding-right:50px; padding-bottom:20px">
-	<tr>
-		<td width = 350px style="padding: 10px 30px 10px 30px">
-			<h3 align= "center">Contact Us</h3>
-			<form>
-			<input type="text" name="username" placeholder ="Enter Username"/>
-			</br>
-			</br>
-			<input type="Email_id" name="email"placeholder ="Enter EmailId"/>
-			</br>
-			</br>
-			<input type="Number" name="num"placeholder ="Enter Phone Number"/>
-			</br>
-			</br>
-			<input type="submit" value="Submit">
-			<form>
-		</td>
-		<td width = 350px style="padding: 10px 30px 10px 30px">
-			<h3 align = center> About Us</h3>
-			<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the </br>
-			industry's standard dummy text ever since the 1500s, when an unknown printer took </br>
+
+<div class "container">
+<div class = "row-fluid">
+<!--<table border = 1 align = "center" width = 800px> -->
+	<!-- <tr> -->
+		<!--<td width = 350px>-->
+		<!--</td>-->
+		<!--<td width = 350px>-->
+			<div class="col-md-4"></div>
+			<div class="col-md-4">
+			<h3  align = center> About Us</h3>
+			<p id="main" class="italic">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the 
+			industry's standard dumy text ever since the 1500s, when an unknown printer took 
 			a galley of type and scrambled it to make a type specimen book. </p>
-		</td>
-	</tr>
-</table>
+			<div class=".col-md-4"></div>
+		<!--</td>-->
+			</div> 
+	
+	<!--</tr>-->
+<!--</table> -->
+</div>
+</div> >
+</div>
+
+
+
+<div class = "footer navbar-fixed-bottom">
+
+<p  align="center"> Copyright 2016 <a hrfer = "www.google.com">Kailash Singh</a> All Rights Reserved </p>
+</div>
 </body>
 
 </html>
